@@ -2,10 +2,16 @@
 
 <p align="center">
   <img src="assets/tela_inicial.png" alt="Tela inicial do projeto PHP_SISTEMA_GESTAO_SENAC" width="400">
-  <img src="assets/concultar_turmas_semestre.png" alt="Tela inicial do projeto PHP_SISTEMA_GESTAO_SENAC" width="400">
-  <img src="assets/alunos_alocados_turma.png" alt="Tela inicial do projeto PHP_SISTEMA_GESTAO_SENAC" width="400">
-  
 </p>
+
+<p align="center">
+  <img src="assets/concultar_turmas_semestre.png" alt="Consultar turmas por semestre" width="400">
+</p>
+
+<p align="center">
+  <img src="assets/alunos_alocados_turma.png" alt="Alunos alocados por turma" width="400">
+</p>
+
 
 ## Descrição
 PHP_SISTEMA_GESTAO_SENAC é um projeto web desenvolvido como prática de estudo, utilizando **PHP, HTML, CSS, JavaScript e jQuery**, integrado a um banco de dados **MySQL** rodando no **XAMPP**.  
