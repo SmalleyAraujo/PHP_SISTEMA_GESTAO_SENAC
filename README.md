@@ -2,6 +2,9 @@
 
 <p align="center">
   <img src="assets/tela_inicial.png" alt="Tela inicial do projeto PHP_SISTEMA_GESTAO_SENAC" width="400">
+  <img src="assets/concultar_turmas_semestre.png" alt="Tela inicial do projeto PHP_SISTEMA_GESTAO_SENAC" width="400">
+  <img src="assets/alunos_alocados_turma.png" alt="Tela inicial do projeto PHP_SISTEMA_GESTAO_SENAC" width="400">
+  
 </p>
 
 ## Descrição
@@ -28,6 +31,19 @@ Usuário: adm
 Senha: adm
 
 Ambos são “adm” para login rápido.
+
+---
+Importe o banco de dados
+
+Abra o phpMyAdmin do XAMPP
+
+Crie um novo banco de dados
+
+Importe os arquivos SQL da pasta BD:
+
+sql_moodle_25.06.2024.sql → estrutura do banco
+
+cargaBD_25.06.2024.sql → dados de teste
 
 ---
 
