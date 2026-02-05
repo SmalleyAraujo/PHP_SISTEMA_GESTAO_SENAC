@@ -33,7 +33,8 @@ Senha: adm
 Ambos são “adm” para login rápido.
 
 ---
-Importe o banco de dados
+
+## Importe o banco de dados
 
 Abra o phpMyAdmin do XAMPP
 
