@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="style/pag-inicial.css" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-/G5beaW7Yt9sk5n37Y95Msh/7E5obmtKuNE3nhwX3HIISyTzR+hQzQeTsA7SfjJIm+gB0a5CrsjU1zC9K1fM2w==" crossorigin="anonymous" />
+</head>
+
+<body>
+   
+    <div id="pagina">
+         <!--video-->
+        <video autoplay loop muted>
+                    
+            <source src="style/Educacao.mp4" type="video/mp4">
+            
+        </video> 
+         
+        
+        <main>
+            <div class="banner">      
+                <input type="checkbox" id="checkbox">    
+                <label class="btn" for="checkbox"><i class="fa fa-bars"></i> <span>Menu</span></label>     
+                
+
+                <div class="sidebar">
+                    <ul>
+                        <a href="#" id="acesso"><li><i class="fa fa-tachometer"></i>Gestão de Cursos</li></a>
+
+                        <a href="#" id="acesso2"><li><i class="fa fa-lightbulb-o"></i>Gestão de Disciplinas</li></a>                       
+
+                        <a href="#" id="acesso3"><li><i class="fa fa-line-chart"></i>Gestão de Professores</li></a>
+
+                        <a href="#" id="acesso4"><li><i class="fa fa-television"></i>Gestão de Salas de Aula</li></a>
+
+                        <a href="#" id="acesso5"><li><i class="fa fa-send"></i>Gestão de Alunos</li></a>
+
+                        <a href="#" id="acesso6"><li><i class="fa fa-wpforms"></i>Avaliação das Disciplinas</li></a>
+
+                        <a href="#"><li><i class="fa fa-paint-brush"></i>Auditoria</li></a>
+
+                        <a href="#"><li><i class="fa fa-file-text-o"></i>Indicadores</li></a>
+                        
+                        <a href="#"><li><i class="fa fa-globe"></i>Sair</li></a>
+                    </ul>
+                </div>
+        
+            </div>
+            <div id="banner2">
+
+                <section id="section1">
+                    <!-- modulo I -->
+                    <div id="caixa" class="caixaImpar">
+                        <nav class="navCaixa">               
+                                <ul>
+                                    <li class="liCaixa"><h3>Módulo Cursos</h3></li>                    
+                                    <li class="liCaixa"><a href="GestaoCurso/cadastrar.curso.php" class="linkCaixa">&#129488;Cadastrar Cursos</a></li>
+                                    <li class="liCaixa"><a href="GestaoCurso/consultar.curso.php" class="linkCaixa">&#129488;Consultar Cursos</a></li>                                                   
+                                </ul>                
+                        </nav>
+                    </div> 
+                    <div id="caixa2"class="caixaPar">
+                        <nav class="navCaixa">               
+                            <ul>                    
+                                <li class="liCaixa"><h3>Módulo Cursos - Alocação Curso/Disciplina:</h3></li>                
+                                <li class="liCaixa"><a href="GestaoCurso/alocacao/alocacaoDaC.php" class="linkCaixa">&#129309;Alocação Disciplinas a Cursos</a></li>
+                                <li class="liCaixa"><a href="GestaoCurso/alocacao/consultarAlocacaoDaC.php" class="linkCaixa">&#129309;Consultar Alocação Disciplinas a Cursos</a></li>
+                                                
+                            </ul>                
+                        </nav>
+                    </div> 
+                    <div id="caixa3"class="caixaImpar">
+                        <nav class="navCaixa">               
+                            <ul>
+                                <li class="liCaixa"><h3>Módulo Cursos - Alocação Salas/Turmas:</h3></li>                   
+                                <li class="liCaixa"><a href="GestaoCurso/alocacao/alocacaoSaT.php" class="linkCaixa">&#127970;Alocação de Salas a Turmas</a></li>
+                                <li class="liCaixa"><a href="GestaoCurso/alocacao/consultarAlocacaoSaT.php" class="linkCaixa">&#127970;Consultar Alocação de Salas a Turmas</a></li>                   
+                            </ul>                
+                        </nav>
+                    </div> 
+                    <div id="caixa4"class="caixaPar">
+                        <nav class="navCaixa">               
+                            <ul>
+                                <li class="liCaixa"><h3>Módulo Cursos - Motagem Turmas/Semestre:</h3></li>  
+                                <li class="liCaixa"><a href="GestaoCurso/montagemTurma/montagemTSemestre.php" class="linkCaixa">&#9997;Montagem de Turmas por Semestre</a></li>
+                                <li class="liCaixa"><a href="GestaoCurso/montagemTurma/consultaTSemestre.php" class="linkCaixa">&#9997;Consulta de Montagem de Turmas por Semestre</a></li>                                                                      
+                            </ul>                
+                        </nav>
+                    </div> 
+                </section> 
+                <section id="section2"> 
+                    <!-- modulo II -->
+                    <div id="caixa5" class="caixaImpar">
+                        <nav class="navCaixa">               
+                                <ul>
+                                    <li class="liCaixa"><h3>Módulo Disciplinas</h3></li>                    
+                                    <li class="liCaixa"><a href="GestaoDisciplina/cadastrarDisciplina.php"  class="linkCaixa">&#129488;Cadastrar Disciplinas</a></li>
+                                    <li class="liCaixa"><a href="GestaoDisciplina/consultarDisciplina.php" class="linkCaixa">&#129488;Consultar Disciplinas</a></li>                                                   
+                                </ul>                
+                        </nav>
+                    </div>
+                    <div id="caixa6" class="caixaPar">
+                        <nav class="navCaixa">               
+                                <ul> 
+                                    <li class="liCaixa"><h3>Módulo Disciplinas</h3></li>                   
+                                    <li class="liCaixa"><a href="GestaoDisciplina/associacaoDC.php" class="linkCaixa">&#129488;Consultar Associação Disciplinas e Cursos</a></li>                                                    
+                                </ul>                
+                        </nav>
+                    </div>  
+                </section> 
+                <section id="section3"> 
+                    <!-- modulo III -->
+                    <div id="caixa9" class="caixaImpar">
+                        <nav class="navCaixa">               
+                                <ul>
+                                    <li class="liCaixa"><h3>Módulo Professores</h3></li>                     
+                                    <li class="liCaixa"><a href="GestaoProfessores/create.php" class="linkCaixa">&#129488;Cadastrar Professor</a></li>
+                                    <li class="liCaixa"><a href="GestaoProfessores/read.php" class="linkCaixa">&#129488;Consultar Professores</a></li>                                                
+                                </ul>                
+                        </nav>
+                    </div>
+                    <div id="caixa10" class="caixaPar">
+                        <nav class="navCaixa">               
+                                <ul>
+                                    <li class="liCaixa"><h3>Módulo Professores</h3></li>                     
+                                                       
+                                                    
+                                </ul>                
+                        </nav>
+                    </div>  
+                    <div id="caixa11" class="caixaPar">
+                        <nav class="navCaixa">               
+                                <ul>   
+                                    <li class="liCaixa"><h3>Módulo Professores</h3></li>                                                     
+                                </ul>                
+                        </nav>
+                    </div>  
+                </section> 
+                <section id="section4"> 
+                    <!-- modulo IV -->
+                    <div id="caixa12" class="caixaImpar">
+                        <nav class="navCaixa">               
+                                <ul>   
+                                    <li class="liCaixa"><h3>Módulo Salas de Aula</h3></li>                  
+                                    <li class="liCaixa"><a href="GestaoSala/cadastro_sala_form.php" class="linkCaixa">&#129488;Cadastro Salas de Aula</a></li>
+                                    <li class="liCaixa"><a href="GestaoSala/consultar_sala.php" class="linkCaixa">&#129488;Consultar Salas de Aula</a></li>                                                                                     
+                                </ul>                
+                        </nav>
+                    </div>
+                    <div id="caixa13" class="caixaPar">
+                        <nav class="navCaixa">               
+                                <ul>    
+                                    <li class="liCaixa"><h3>Módulo Salas de Aula</h3></li>                 
+                                    <li class="liCaixa"><a href="GestaoSala/agendamento_aulas_eventos.php" class="linkCaixa">&#129488;Salas de Aula Agendamento de Eventos</a></li>                                                   
+                                </ul>                
+                        </nav>
+                    </div>  
+                    
+                </section> 
+
+                <section id="section5"> 
+                    <!-- modulo V -->
+                    <div id="caixa14" class="caixaImpar">
+                        <nav class="navCaixa">               
+                                <ul>        
+                                    <li class="liCaixa"><h3>Módulo Alunos</h3></li>             
+                                    <li class="liCaixa"><a href="GestaoAluno/cadastro_alunos.php" class="linkCaixa">&#129488;Cadastrar Aluno</a></li>
+                                    <li class="liCaixa"><a href="GestaoAluno/consulta_alunos.php" class="linkCaixa">&#129488;Consultar Alunos</a></li>
+                                                      
+                                                    
+                                </ul>                
+                        </nav>
+                    </div>
+                    <div id="caixa15" class="caixaPar">
+                        <nav class="navCaixa">               
+                                <ul>  
+                                    <li class="liCaixa"><h3>Módulo Alunos</h3></li>                  
+                                                        
+                                                    
+                                </ul>                
+                        </nav>
+                    </div>  
+                    
+                </section> 
+                <section id="section6"> 
+                    <!-- modulo VI -->
+                    <div id="caixa16" class="caixaImpar">
+                        <nav class="navCaixa">               
+                                <ul>    
+                                    <li class="liCaixa"><h3>Avaliação das Disciplinas</h3></li>                
+                                    <li class="liCaixa"><a href="GestaoCurso/cadastrar.curso.php" class="linkCaixa">&#129488;Cadastrar Cursos</a></li>
+                                    <li class="liCaixa"><a href="GestaoCurso/consultar.curso.php" class="linkCaixa">&#129488;Consultar Cursos</a></li>
+                                    <li class="liCaixa"><a href="GestaoCurso/atualizar.curso.php" class="linkCaixa">&#129488;Atualizar Cursos</a></li>                    
+                                                    
+                                </ul>                
+                        </nav>
+                    </div>
+                    <div id="caixa17" class="caixaPar">
+                        <nav class="navCaixa">               
+                                <ul>    
+                                    <li class="liCaixa"><h3>Avaliação das Disciplinas</h3></li>                 
+                                    <li class="liCaixa"><a href="GestaoCurso/cadastrar.curso.php" class="linkCaixa">&#129488;Cadastrar Cursos</a></li>
+                                    <li class="liCaixa"><a href="GestaoCurso/consultar.curso.php" class="linkCaixa">&#129488;Consultar Cursos</a></li>
+                                    <li class="liCaixa"><a href="GestaoCurso/atualizar.curso.php" class="linkCaixa">&#129488;Atualizar Cursos</a></li>                    
+                                                    
+                                </ul>                
+                        </nav>
+                    </div>  
+                    
+                </section> 
+                
+
+
+
+
+
+
+
+
+
+            </div>        
+
+
+        </main>  
+    </div>
+    
+  <script src="../moodle/js/code.jquery.com_jquery-3.7.0.js"></script>
+  <script src="../moodle/js/scriptPopUp.js"></script>      
+</body>
+
+</html>
+

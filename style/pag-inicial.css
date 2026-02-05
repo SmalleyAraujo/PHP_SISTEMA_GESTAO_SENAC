@@ -1,0 +1,273 @@
+/* Importando a fonte Roboto do Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+/* Definindo o box-sizing para todos os elementos */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* Definindo a cor de fundo do body */
+body {
+  background-color: #f5f5f5;
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+#pagina{
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  position: relative; /* Mudança para posição relativa */
+}
+
+main {
+  position: absolute; /* Mudança para posição absoluta */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  z-index: 2; /* Defina um z-index maior para o conteúdo */
+  color: white; /* Apenas para tornar o texto visível */
+}
+
+/* Ocultando a checkbox que controla o menu lateral */
+#checkbox {
+  display: none;
+}
+
+/* Estilos do botão que representa o menu lateral */
+.btn {
+  display: block;
+  background-color: #247D9E;
+  color: #fff;
+  position: relative;
+  width: 255px; /* Largura inicial do botão para mantê-lo aberto */
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  cursor: pointer;
+  transition: width .3s ease-in-out;
+  z-index: 3; /* Defina um z-index maior para o botão */
+}
+
+/* Exibindo o texto "Menu" dentro do botão */
+.btn span {
+  display: inline;
+}
+
+/* Estilos do menu lateral */
+.sidebar {
+  background-color: #3d5275;
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  z-index: 2;
+}
+
+/* Estilos da lista dentro do menu lateral */
+.sidebar ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* Estilos dos links dentro da lista do menu lateral */
+.sidebar ul a {
+  position: relative;
+  text-decoration: none;
+  display: block;
+  background-color: transparent;
+  color: #e2d6ea;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+
+/* Estilos dos ícones dentro dos links do menu lateral */
+.sidebar ul a li i {
+  margin-right: 15px;
+}
+
+/* Estilos ao passar o mouse sobre os links do menu lateral */
+.sidebar ul a:hover, .sidebar ul a.active {
+  background-color: #161920;
+  color: #fff;
+}
+
+/* Criando uma barra colorida ao lado dos links ativos */
+.sidebar ul a:hover::before, .sidebar ul a.active::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  background-color: #247D9E;
+  width: 4px;
+  height: 100%;
+}
+
+/* Movendo o menu lateral para a
+
+/* Effect of showing the sidebar - starts */
+#checkbox:checked ~ .sidebar {
+    transform: translateX(0);
+}
+
+#checkbox:checked + .btn {
+    width: 250px;
+    padding: 0 20px;
+}
+
+#checkbox:checked + .btn span { /* Show again the word "Menu" in the button */
+    display: inline;
+}
+/* Effect of showing the sidebar - ends */
+
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  object-fit: cover; /* Manter a propriedade object-fit como 'cover' */
+  width: 100%;
+  height: 100%;
+  z-index: 1;  
+}
+
+
+#menu2{
+  display: none; 
+  color: red;
+}
+
+#banner2{
+  width: 100%;
+  height: 2100px;
+  /* border: 5px solid rgb(255, 0, 212); */
+}
+
+
+#section1{
+  width: 100%;
+  height: auto; 
+  /* height:  Alternar entre 350px e auto para visualizar flex*/
+  /* border: 5px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+#section2{
+  width: 100%;
+  height: auto;
+  /* height:  Alternar entre 350px e auto para visualizar flex*/
+  /* border: 5px solid rgb(0, 255, 21); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+#section3{
+  width: 100%;
+  height: auto;
+  /* height:  Alternar entre 350px e auto para visualizar flex*/
+  /* border: 5px solid rgb(255, 0, 43); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+#section4{
+  width: 100%;
+  height: auto; 
+  /* height:  Alternar entre 350px e auto para visualizar flex*/
+  /* border: 5px solid rgb(238, 255, 0); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+#section5{
+  width: 100%;
+  height: auto; 
+  /* height:  Alternar entre 350px e auto para visualizar flex*/
+  /* border: 5px solid rgb(47, 0, 255); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+#section6{
+  width: 100%;
+  height: auto; 
+  /* height:  Alternar entre 350px e auto para visualizar flex*/
+  /* border: 5px solid rgb(255, 111, 0); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+
+
+
+.caixaImpar{
+  /* width: 15%;
+  height: 25%; */
+  margin-top: 10px;
+  display: none; 
+  background-color: rgb(84, 226, 52);
+  border: 5px solid rgb(111, 145, 209);  
+  border-radius: 10px;
+
+}
+
+.caixaPar{
+  width: 15%;
+  height: 20%;
+  margin-top: 10px;
+  display: none; 
+  background-color: rgb(232, 116, 22);
+  border: 5px solid rgb(111, 145, 209);  
+  border-radius: 10px;
+
+}
+
+
+ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;  
+}
+
+.navCaixa{
+  width: 100%;
+  height: 100%;
+  display: flex;   
+  justify-content: center;
+  align-items: center;  
+}
+
+.liCaixa{
+  text-align: center;
+  padding-bottom: 15px; 
+  font-weight: bolder;
+  
+}
+
+.linkCaixa{
+  color: rgb(36, 30, 30);
+}
